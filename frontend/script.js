@@ -2,7 +2,7 @@
 
 
 
-fetch("http://localhost:8000/getStories")
+fetch("https://api-getstories.herokuapp.com/getStories")
 .then(res => res.json())
 .then(stories => showStories(stories));
 
